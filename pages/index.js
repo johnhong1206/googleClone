@@ -35,9 +35,14 @@ export default function Home() {
         <div className="flex space-x-4 items-center">
           <p className="link">Gmail</p>
           <p className="link">Images</p>
-
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
-          <Avatar url="https://scontent.fkul14-1.fna.fbcdn.net/v/t1.6435-1/p240x240/51904299_2006881456033063_6086460870274056192_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=7206a8&_nc_ohc=GuTM1MPJiaUAX-lkz3T&_nc_ht=scontent.fkul14-1.fna&tp=6&oh=ba0bfd2fe96533050903017939b8dbb9&oe=6095D19A" />
+          <Image
+            className="rounded-full cursor-pointer"
+            src={`https://lh3.googleusercontent.com/ogw/ADGmqu8N43LEmhDossVRfXffxbHyCf2Oq8AWAtHZroO6yQ=s32-c-mo`}
+            width="30"
+            height="30"
+            layout="fixed"
+          />
         </div>
       </header>
       <form className="flex flex-col items-center mt-44 flex-grow ">

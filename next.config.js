@@ -4,6 +4,19 @@ module.exports = withImages({
     return config;
   },
   images: {
-    domains: ["www.google.com"],
+    domains: [
+      "www.google.com",
+      "image.tmdb.org",
+      "platform-lookaside.fbsbx.com",
+      "firebasestorage.googleapis.com",
+      "platform-lookaside.fbsbx.com",
+      "lh3.googleusercontent.com",
+      "thumbs.dreamstime.com",
+      "media.wired.com",
+      "images.unsplash.com",
+      "cdn.vox-cdn.com",
+      "a0.muscache.com",
+      "www.airbnb.com",
+    ],
   },
 });
